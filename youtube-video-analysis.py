@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset from GitHub
-github_url = "https://raw.githubusercontent.com/Emstan32/sales-analysis/main/youtube_data_extended.csv"
+github_url = "https://raw.githubusercontent.com/Emstan32/youtube-video-analysis/main/youtube_data_extended.csv"
 df = pd.read_csv(github_url)
 
 # Convert 'upload_date' to datetime format
